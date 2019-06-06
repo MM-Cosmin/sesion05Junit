@@ -1,12 +1,9 @@
-package ual.hmis.sesion05;
+package ual.hmis.sesion05.Ejercicio4;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
-import ual.hmis.sesion05.Ejercicio4.Ejercicio4;
 
 
 class Ejercicio4Test {

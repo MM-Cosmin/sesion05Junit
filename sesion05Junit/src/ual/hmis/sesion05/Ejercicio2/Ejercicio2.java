@@ -1,9 +1,8 @@
 package ual.hmis.sesion05.Ejercicio2;
 
+
 public class Ejercicio2 {
-
 	public boolean login (String username, String password){
-
 		// comprobar que sean distintos de vacio
 		if(username == "" || password == "")
 			return false;

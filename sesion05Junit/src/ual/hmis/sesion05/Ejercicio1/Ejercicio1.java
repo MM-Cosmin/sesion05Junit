@@ -1,4 +1,3 @@
-
 package ual.hmis.sesion05.Ejercicio1;
 
 public class Ejercicio1{

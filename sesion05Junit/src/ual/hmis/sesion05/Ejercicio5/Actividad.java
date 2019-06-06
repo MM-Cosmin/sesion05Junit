@@ -2,7 +2,6 @@ package ual.hmis.sesion05.Ejercicio5;
 
 
 import java.util.ArrayList;
-import java.util.*;
 
 public class Actividad {
 

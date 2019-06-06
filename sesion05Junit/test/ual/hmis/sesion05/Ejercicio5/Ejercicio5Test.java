@@ -1,4 +1,4 @@
-package ual.hmis.sesion05;
+package ual.hmis.sesion05.Ejercicio5;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -6,11 +6,6 @@ import java.util.ArrayList;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
-import ual.hmis.sesion05.Ejercicio5.Actividad;
-import ual.hmis.sesion05.Ejercicio5.Alumno;
-import ual.hmis.sesion05.Ejercicio5.Ejercicio;
-import ual.hmis.sesion05.Ejercicio5.Profesor;
 
 class Ejercicio5Test {
 
@@ -70,7 +65,7 @@ class Ejercicio5Test {
 		teacher.setAlumnosDePracticas(arrayPro);
 		teacher.calificarAlumnos();
 
-		/*Alumnos*/
+		//Alumnos
 		assertTrue(a3.isApta());
 		assertEquals(alum.calcularNotaActividad(nombre),expected);
 		assertEquals(alum2.calcularNotaActividad(nombre),expected);

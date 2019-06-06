@@ -1,12 +1,9 @@
-package ual.hmis.sesion05;
+package ual.hmis.sesion05.Ejercicio2;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
-import ual.hmis.sesion05.Ejercicio2.Ejercicio2;
 
 
 class Ejercicio2Test {
@@ -24,7 +21,7 @@ class Ejercicio2Test {
 
 	void testLoginDBFalse(String username, String password, boolean expected) {
 		if(username == null) username = "";
-		if(password==null)password="";
+		if(password == null)password="";
 		Ejercicio2 eje2 = new Ejercicio2();
 		assertEquals(eje2.login(username, password), expected);
 
