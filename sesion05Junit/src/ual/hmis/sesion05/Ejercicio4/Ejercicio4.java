@@ -8,6 +8,7 @@ public class Ejercicio4 {
 			for(int j=0;j<P2.length();j++) {
 				if(P1.charAt(i)==P2.charAt(j)) {
 					res += P1.charAt(i);
+
 				}
 
 			}
